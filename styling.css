@@ -1,0 +1,65 @@
+
+header{
+    background-image: url(images/TAKE\ 2.png);
+    height: 900px;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: burlywood;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li:not(:last-child) {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+    background-color: palevioletred;
+}
+
+@media only screen and (max-width: 600px) {
+    nav ul li {
+        display: block;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+}
+body{
+    background-color: gainsboro;
+}
+#socials ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center align the items horizontally */
+}
+
+#socials ul li {
+    margin: 0 10px; /* Add some spacing between each image */
+}
+
+#socials ul li img {
+    width: 50px; /* Adjust the width of each image */
+    height: auto; /* Maintain aspect ratio */
+}
